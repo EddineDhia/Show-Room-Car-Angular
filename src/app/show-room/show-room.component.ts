@@ -1,16 +1,15 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-show-room',
   standalone: true,
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  imports: [],
+  templateUrl: './show-room.component.html',
+  styleUrl: './show-room.component.css'
 })
-export class AppComponent {
-  title = 'Car-Show-Room';
+export class ShowRoomComponent implements OnInit{
 
+  
   car = { 
     brand:'',
     model:'',
